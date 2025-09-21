@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sensor Dashboard</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+
+   <!-- TMP102 -->
+   <widget class="QLabel" name="titleTMP">
+    <property name="geometry"><rect><x>40</x><y>0</y><width>100</width><height>20</height></rect></property>
+    <property name="text"><string>TMP102</string></property>
+    <property name="alignment"><set>Qt::AlignCenter</set></property>
+   </widget>
+   <widget class="QLabel" name="labelTMP">
+    <property name="geometry"><rect><x>50</x><y>220</y><width>100</width><height>30</height></rect></property>
+    <property name="text"><string>-- °C</string></property>
+    <property name="alignment"><set>Qt::AlignCenter</set></property>
+   </widget>
+   <widget class="QProgressBar" name="progressTMP">
+    <property name="geometry"><rect><x>50</x><y>40</y><width>30</width><height>180</height></rect></property>
+    <property name="minimum"><number>0</number></property>
+    <property name="maximum"><number>100</number></property>
+    <property name="orientation"><enum>Qt::Vertical</enum></property>
+   </widget>
+
+   <!-- BMP280 -->
+   <widget class="QLabel" name="titleBMP">
+    <property name="geometry"><rect><x>190</x><y>0</y><width>100</width><height>20</height></rect></property>
+    <property name="text"><string>BMP280</string></property>
+    <property name="alignment"><set>Qt::AlignCenter</set></property>
+   </widget>
+   <widget class="QLabel" name="labelBMP">
+    <property name="geometry"><rect><x>200</x><y>220</y><width>150</width><height>30</height></rect></property>
+    <property name="text"><string>--</string></property>
+    <property name="alignment"><set>Qt::AlignCenter</set></property>
+   </widget>
+   <widget class="QProgressBar" name="progressBMP">
+    <property name="geometry"><rect><x>200</x><y>40</y><width>30</width><height>180</height></rect></property>
+    <property name="minimum"><number>900</number></property>
+    <property name="maximum"><number>1100</number></property>
+    <property name="orientation"><enum>Qt::Vertical</enum></property>
+   </widget>
+
+   <!-- ADS1115 -->
+   <widget class="QLabel" name="titleADS">
+    <property name="geometry"><rect><x>340</x><y>0</y><width>100</width><height>20</height></rect></property>
+    <property name="text"><string>ADS1115</string></property>
+    <property name="alignment"><set>Qt::AlignCenter</set></property>
+   </widget>
+   <widget class="QLabel" name="labelADS">
+    <property name="geometry"><rect><x>350</x><y>220</y><width>150</width><height>30</height></rect></property>
+    <property name="text"><string>-- V</string></property>
+    <property name="alignment"><set>Qt::AlignCenter</set></property>
+   </widget>
+   <widget class="QProgressBar" name="progressADS">
+    <property name="geometry"><rect><x>350</x><y>40</y><width>30</width><height>180</height></rect></property>
+    <property name="minimum"><number>0</number></property>
+    <property name="maximum"><number>3300</number></property>
+    <property name="orientation"><enum>Qt::Vertical</enum></property>
+   </widget>
+
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

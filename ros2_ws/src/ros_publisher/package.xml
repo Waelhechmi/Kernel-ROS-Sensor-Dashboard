@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros_publisher</name>
+  <version>0.0.1</version>
+  <description>Publishes sensor values from TMP102, BMP280, ADS1115</description>
+
+  <maintainer email="wael@example.com">Wael</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+</package>

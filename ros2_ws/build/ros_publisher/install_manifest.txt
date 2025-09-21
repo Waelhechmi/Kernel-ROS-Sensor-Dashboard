@@ -1,0 +1,16 @@
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/lib/ros_publisher/sensor_publisher
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ament_index/resource_index/package_run_dependencies/ros_publisher
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ament_index/resource_index/parent_prefix_path/ros_publisher
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/environment/ament_prefix_path.sh
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/environment/ament_prefix_path.dsv
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/environment/path.sh
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/environment/path.dsv
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/local_setup.bash
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/local_setup.sh
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/local_setup.zsh
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/local_setup.dsv
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/package.dsv
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ament_index/resource_index/packages/ros_publisher
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/cmake/ros_publisherConfig.cmake
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/cmake/ros_publisherConfig-version.cmake
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/ros2_ws/install/ros_publisher/share/ros_publisher/package.xml
