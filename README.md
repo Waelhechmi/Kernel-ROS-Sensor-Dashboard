@@ -12,28 +12,7 @@ Complete real-time sensor monitoring system that reads data from I2C devices thr
 - ROS2 Node for sensor data publishing
 - Command-line monitoring tool
 
-## Project Structure
-kernel_modules/
-├── tmp102.c, tmp102.ko
-├── bmp280.c, bmp280.ko
-├── ads1115.c, ads1115.ko
-└── Makefile
 
-user_application/
-├── user.c
-└── user_dashboard
-
-graphicsviewer/
-├── main.cpp
-├── mainwindow.cpp, mainwindow.h, mainwindow.ui
-├── SensorsReader.cpp, SensorsReader.h
-├── SensorDashboardGUI.pro
-└── ui_mainwindow.h
-
-ros2_ws/src/sensors_publisher/
-├── src/sensor_publisher.cpp
-├── CMakeLists.txt
-└── package.xml
 
 ## Installation
 
@@ -148,6 +127,4 @@ For issues:
 
 
 ## Version
-
-
 Compatibility: Linux Kernel 4.15+, ROS2 Humble, Qt5.12+
