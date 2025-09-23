@@ -14,7 +14,8 @@ Complete real-time sensor monitoring system that reads data from I2C devices thr
 
 
 
-## Installation
+## Architecture
+![Project Architecture ](workflow.png)
 
 ### Prerequisites
 sudo apt update
@@ -28,7 +29,7 @@ make
 sudo insmod tmp102.ko
 sudo insmod bmp280.ko
 sudo insmod ads1115.ko
-
+![Device file  ](wf1.png)
 ### 2. User Application
 cd user_application
 gcc -o user_dashboard user.c
@@ -55,11 +56,11 @@ ADS1115: Channel 0 = 1.234 V
 ### Qt GUI
 cd graphicsviewer
 ./SensorDashboardGUI
-
+![Graphics interface  ](wf3.png)
 ### ROS2
 ros2 run sensors_publisher sensor_publisher
 ros2 topic echo /tmp102/temperature
-
+![ros topics  ](wf2.png)
 ## ROS2 Topics
 - /tmp102/temperature (std_msgs/Float32) - 2Hz
 - /bmp280/temperature (std_msgs/Float32) - 1Hz
