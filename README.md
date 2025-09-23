@@ -56,7 +56,10 @@ ADS1115: Channel 0 = 1.234 V
 ### Qt GUI
 cd graphicsviewer
 ./SensorDashboardGUI
+
+
 ![Graphics interface  ](wf3.png)
+
 ### ROS2
 ros2 run sensors_publisher sensor_publisher
 ros2 topic echo /tmp102/temperature
