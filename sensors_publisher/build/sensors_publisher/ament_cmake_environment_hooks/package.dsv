@@ -1,4 +1,0 @@
-source;share/sensors_publisher/local_setup.bash
-source;share/sensors_publisher/local_setup.dsv
-source;share/sensors_publisher/local_setup.sh
-source;share/sensors_publisher/local_setup.zsh
