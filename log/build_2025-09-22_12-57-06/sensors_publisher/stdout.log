@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/wael/.espressif/python_env/idf5.4_py3.10_env/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_publisher.dir/src/sensor_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sensor_publisher[0m
+[100%] Built target sensor_publisher
+-- Install configuration: ""
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/lib/sensors_publisher/sensor_publisher
+-- Set runtime path of "/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/lib/sensors_publisher/sensor_publisher" to ""
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/ament_index/resource_index/package_run_dependencies/sensors_publisher
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/ament_index/resource_index/parent_prefix_path/sensors_publisher
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/path.sh
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/path.dsv
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.bash
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.sh
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.zsh
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.dsv
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/package.dsv
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/ament_index/resource_index/packages/sensors_publisher
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/cmake/sensors_publisherConfig.cmake
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/cmake/sensors_publisherConfig-version.cmake
+-- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/package.xml

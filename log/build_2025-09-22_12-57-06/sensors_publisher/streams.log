@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/sensors_publisher -DCMAKE_INSTALL_PREFIX=/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.609s] -- Found Python3: /home/wael/.espressif/python_env/idf5.4_py3.10_env/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.684s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.718s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.722s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.728s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.785s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.889s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.917s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.968s] -- Looking for pthread.h
+[1.042s] -- Looking for pthread.h - found
+[1.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.123s] -- Found Threads: TRUE  
+[1.238s] -- Configuring done
+[1.246s] -- Generating done
+[1.249s] -- Build files have been written to: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher
+[1.258s] Invoked command in '/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/sensors_publisher -DCMAKE_INSTALL_PREFIX=/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher
+[1.260s] Invoking command in '/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher -- -j16 -l16
+[1.313s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_publisher.dir/src/sensor_publisher.cpp.o[0m
+[4.813s] [100%] [32m[1mLinking CXX executable sensor_publisher[0m
+[5.001s] [100%] Built target sensor_publisher
+[5.012s] Invoked command in '/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher -- -j16 -l16
+[5.023s] Invoking command in '/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher
+[5.031s] -- Install configuration: ""
+[5.031s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/lib/sensors_publisher/sensor_publisher
+[5.033s] -- Set runtime path of "/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/lib/sensors_publisher/sensor_publisher" to ""
+[5.033s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/ament_index/resource_index/package_run_dependencies/sensors_publisher
+[5.033s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/ament_index/resource_index/parent_prefix_path/sensors_publisher
+[5.033s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/ament_prefix_path.sh
+[5.033s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/ament_prefix_path.dsv
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/path.sh
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/environment/path.dsv
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.bash
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.sh
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.zsh
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/local_setup.dsv
+[5.034s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/package.dsv
+[5.035s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/ament_index/resource_index/packages/sensors_publisher
+[5.035s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/cmake/sensors_publisherConfig.cmake
+[5.035s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/cmake/sensors_publisherConfig-version.cmake
+[5.035s] -- Installing: /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/install/sensors_publisher/share/sensors_publisher/package.xml
+[5.038s] Invoked command in '/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher

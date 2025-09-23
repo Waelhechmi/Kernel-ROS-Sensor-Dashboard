@@ -1,0 +1,10 @@
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/uninstall.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/sensors_publisher_uninstall.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/sensor_publisher.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/test.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/edit_cache.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/rebuild_cache.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/list_install_components.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/install.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/install/local.dir
+/home/wael/Kernel-ROS/Kernel-ROS-Sensor-Dashboard/build/sensors_publisher/CMakeFiles/install/strip.dir
